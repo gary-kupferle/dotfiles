@@ -1,0 +1,41 @@
+# git
+alias gs='git status'
+alias gb='git branch'
+alias gdiff='git diff'
+
+# ls
+alias la='ls -la'
+alias ll='ls -lrt'
+alias ld='ls -la | grep ^d'
+alias md='mkdir'
+alias rd='rmdir'
+
+# change dirs
+alias cdflp='cd ~/Projects/sltp/Functional-Light-JavaScript-Exercises'
+alias cdtestws='cd ~/Projects/GitHub/Sketch/testing-workshop'
+alias cdtestwsm='cd ~/Projects/GitHub/Sketch/testing-workshop-master'
+alias cdsketch='cd ~/Projects/GitHub/Sketch'
+alias cdcliff='cd ~/Projects/GitHub/Sketch/clifford'
+alias cddims='cd ~/Projects/GitHub/Sketch/dims'
+alias cdddk='cd ~/Projects/GitHub/Sketch/dims/centene-tracker-developer-kit'
+alias cdsltp='cd ~/Documents/Projects/sltp'
+alias cdsaws='cd ~/Documents/_Sketch/aws'
+function mdcd() {
+  mkdir $1
+  cd $1
+}
+
+# commands
+alias reload='. ~/.bash_profile'
+alias vimalias='vim ~/.common_shell.d/aliases'
+function dcu() {
+  echo 'Running docker-compose up'
+  docker-compose up
+}
+function dcd() {
+  echo 'Running docker-compose down'
+  docker-compose down
+}
+alias jekyllb='bundle exec jekyll b'
+alias gwbr='./gradlew bootRun'
+
