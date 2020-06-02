@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/garykupferle/.oh-my-zsh"
+export ZSH="/Users/$USERNAME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -116,8 +116,8 @@ function _accept-line() {
 zle -N accept-line _accept-line
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/garykupferle/.sdkman"
-[[ -s "/Users/garykupferle/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/garykupferle/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/Users/$USERNAME/.sdkman"
+[[ -s "/Users/$USERNAME/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/$USERNAME/.sdkman/bin/sdkman-init.sh"
 
 bindkey "[D" backward-word
 bindkey "[C" forward-word
