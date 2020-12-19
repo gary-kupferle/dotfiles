@@ -12,13 +12,15 @@ alias rd='rmdir'
 
 # change dirs
 alias cdflp='cd ~/Projects/sltp/Functional-Light-JavaScript-Exercises'
+alias cdgithub='cd ~/Projects/GitHub'
 alias cdtestws='cd ~/Projects/GitHub/Sketch/testing-workshop'
 alias cdtestwsm='cd ~/Projects/GitHub/Sketch/testing-workshop-master'
 alias cdsketch='cd ~/Projects/GitHub/Sketch'
 alias cdcliff='cd ~/Projects/GitHub/Sketch/clifford'
+alias cdwayp='cd ~/Projects/GitHub/Sketch/waypointr-app'
 alias cddims='cd ~/Projects/GitHub/Sketch/dims'
 alias cdddk='cd ~/Projects/GitHub/Sketch/dims/centene-tracker-developer-kit'
-alias cdsltp='cd ~/Documents/Projects/sltp'
+alias cdsltp='cd ~/Projects/sltp'
 alias cdsaws='cd ~/Documents/_Sketch/aws'
 function mdcd() {
   mkdir $1
